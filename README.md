@@ -28,9 +28,17 @@ F=(((C.B'.A)+(D.C'.A)+(C.B'.A))')'
 
 ## Logic Diagram
 ## Procedure
+```
+Create a project with required entities.
+Create a module along with respective file name.
+Run the respective programs for the given boolean equations.
+Run the module and get the respective RTL outputs.
+Create university program(VWF) for getting timing diagram.
+Give the respective inputs for timing diagram and obtain the results.
+```
 ## Program:
 ```
-module saisai(a,b,c,d,f);
+module combo1(a,b,c,d,f);
 input a,b,c,d;
 output f;
 wire f1,f2,f3;
@@ -41,7 +49,7 @@ assign f= f1&~f2&~f3;
 endmodule
 ```
 ```
-module sai2(a,b,c,d,f);
+module combo2(a,b,c,d,f);
 input a,b,c,d;
 output f;
 wire f1,f2,f3,f4;
